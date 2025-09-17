@@ -1,55 +1,55 @@
 {
-  "name": "hdg",
-  "version": "1.0.0",
-  "description": "An API documentation generator CLI",
-  "main": "index.js",
-  "bin": {
-    "hdg": "index.js"
-  },
-  "files": [
-    "src"
-  ],
-  "scripts": {
-    "lint": "prettier-standard index.js test/{*,/**/*}.js src/{*,/**/*}.js",
-    "lint:check": "prettier-standard index.js test/{*,/**/*}.js src/{*,/**/*}.js --check",
-    "pretest": "npm run lint:check",
-    "prepare": "husky install",
-    "test": "ava"
-  },
-  "ava": {
-    "files": [
-      "test/**/*.test.js"
-    ],
-    "timeout": "5m"
-  },
-  "lint-staged": {
-    "*.js": "prettier-standard"
-  },
-  "keywords": [
-    "cli",
-    "node.js",
-    "javascript"
-  ],
-  "author": "James George <jamesgeorge998001@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/jsonic/jsonic-doc-gen/issues"
-  },
-  "homepage": "https://github.com/jsonic/jsonic-doc-gen#readme",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "^7.1.0",
-    "enquirer": "^2.3.6",
-    "execa": "^5.0.0",
-    "kleur": "^4.1.4",
-    "node-banner": "^1.4.0",
-    "ora": "^4.1.1"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^12.0.1",
-    "@commitlint/config-conventional": "^12.1.4",
-    "ava": "^3.15.0",
-    "husky": "^5.1.3",
-    "lint-staged": "^10.5.4",
-    "prettier-standard": "^16.4.1"
-  }
+   "name": "hdg",
+   "version": "1.0.0",
+   "description": "An API documentation generator CLI",
+   "main": "index.js",
+   "bin": {
+      "hdg": "index.js"
+   },
+   "files": [
+      "src"
+   ],
+   "scripts": {
+      "lint": "prettier-standard index.js test/{*,/**/*}.js src/{*,/**/*}.js",
+      "lint:check": "prettier-standard index.js test/{*,/**/*}.js src/{*,/**/*}.js --check",
+      "pretest": "npm run lint:check",
+      "prepare": "husky install",
+      "test": "ava"
+   },
+   "ava": {
+      "files": [
+         "test/**/*.test.js"
+      ],
+      "timeout": "5m"
+   },
+   "lint-staged": {
+      "*.js": "prettier-standard"
+   },
+   "keywords": [
+      "cli",
+      "node.js",
+      "javascript"
+   ],
+   "author": "James George <jamesgeorge998001@gmail.com>",
+   "bugs": {
+      "url": "https://github.com/jsonic/jsonic-doc-gen/issues"
+   },
+   "homepage": "https://github.com/jsonic/jsonic-doc-gen#readme",
+   "license": "MIT",
+   "dependencies": {
+      "commander": "^7.1.0",
+      "enquirer": "^2.3.6",
+      "execa": "^5.0.0",
+      "kleur": "^4.1.4",
+      "node-banner": "^1.4.0",
+      "ora": "^4.1.1"
+   },
+   "devDependencies": {
+      "@commitlint/cli": "^12.0.1",
+      "@commitlint/config-conventional": "^12.1.4",
+      "ava": "^3.15.0",
+      "husky": "^5.2.0",
+      "lint-staged": "^10.5.4",
+      "prettier-standard": "^16.4.1"
+   }
 }

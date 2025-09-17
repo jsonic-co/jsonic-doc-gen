@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://jsonic.ir"><img src="https://jsonic.ir/icon.png" alt="Jsonic" height="128"></a>
+  <a href="https://jsonic.ir"><img src="https://avatars.githubusercontent.com/u/232531597" alt="Jsonic" height="128"></a>
   <br>
   <h1>Jsonic Doc Gen</h1>
   <p>
