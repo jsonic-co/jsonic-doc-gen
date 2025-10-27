@@ -37,7 +37,7 @@
    "homepage": "https://github.com/jsonic/jsonic-doc-gen#readme",
    "license": "MIT",
    "dependencies": {
-      "commander": "^7.1.0",
+      "commander": "^14.0.2",
       "enquirer": "^2.3.6",
       "execa": "^5.0.0",
       "kleur": "^4.1.4",
